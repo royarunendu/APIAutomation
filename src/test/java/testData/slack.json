@@ -1,0 +1,44 @@
+{
+  "data":[
+
+    {
+      "endpoint": "channels.list",
+      "requestType": "get",
+      "params": {
+        "exclude_archived": "true"
+      }
+    },
+
+    {
+      "endpoint": "channels.create",
+      "requestType": "post",
+      "params": {
+        "name": "%s"
+      }
+    },
+
+    {
+      "endpoint": "channels.join",
+      "requestType": "post",
+      "params": {
+        "name": "%s"
+      }
+    },
+    {
+      "endpoint": "conversations.rename",
+      "requestType": "post",
+      "params": {
+        "channel": "%s",
+        "name": "%s"
+      }
+    },
+    {
+      "endpoint": "channels.archive",
+      "requestType": "post",
+      "params": {
+        "channel": "%s"
+      }
+    }
+
+  ]
+}
