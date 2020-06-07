@@ -4,6 +4,10 @@ import APIUtils.methods;
 import APIUtils.requestCreater;
 import APIUtils.requests;
 import APIUtils.responses;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import io.restassured.path.json.JsonPath;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -30,6 +34,9 @@ public class scenario {
     Object object;
 
     @Test(priority = 1)
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Test to create a channel")
+    @Story("Basic flow for Slack")
     public void post_createChannel() throws ParseException {
         requestCreater req = new requestCreater("slack", "channels.create");
         requests apiRequest = req.createRequest(methods.POST);
@@ -42,6 +49,8 @@ public class scenario {
     }
 
     @Test(priority = 2)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Test to join a channel")
     public void post_joinChannel() throws ParseException {
         requestCreater req = new requestCreater("slack", "channels.join");
         requests apiRequest = req.createRequest(methods.POST);
@@ -54,6 +63,8 @@ public class scenario {
     }
 
     @Test(priority = 3)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test to rename a channel")
     public void post_renameChannel() throws ParseException {
         requestCreater req = new requestCreater("slack", "conversations.rename");
         requests apiRequest = req.createRequest(methods.POST);
@@ -66,6 +77,8 @@ public class scenario {
     }
 
     @Test(priority = 4)
+    @Severity(SeverityLevel.MINOR)
+    @Description("Test to rename a channel")
     public void get_channels() throws ParseException {
         requestCreater req = new requestCreater("slack", "channels.list");
         requests apiRequest = req.createRequest(methods.GET);
@@ -90,6 +103,8 @@ public class scenario {
     }
 
     @Test(priority = 5)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test to rename a channel")
     public void post_archiveChannel() throws ParseException {
         requestCreater req = new requestCreater("slack", "channels.archive");
         requests apiRequest = req.createRequest(methods.POST);
@@ -101,6 +116,8 @@ public class scenario {
         Assert.assertEquals("true",value,"Failed to archive");
     }
     @Test(priority = 6)
+    @Severity(SeverityLevel.TRIVIAL)
+    @Description("Test to rename a channel")
     public void get_channelsAfterArchived() throws ParseException {
         requestCreater req = new requestCreater("slack", "channels.list");
         requests apiRequest = req.createRequest(methods.GET);

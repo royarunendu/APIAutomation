@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.251" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/arunendu.roy/Documents/learn/PlivoInterview/target/test-classes:/Users/arunendu.roy/Documents/learn/PlivoInterview/target/classes:/Users/arunendu.roy/.m2/repository/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar:/Users/arunendu.roy/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/Users/arunendu.roy/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/Users/arunendu.roy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/arunendu.roy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/arunendu.roy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/arunendu.roy/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/arunendu.roy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/arunendu.roy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/arunendu.roy/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/arunendu.roy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/arunendu.roy/.m2/repository/io/rest-assured/json-path/3.0.0/json-path-3.0.0.jar:/Users/arunendu.roy/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/Users/arunendu.roy/.m2/repository/io/rest-assured/rest-assured-common/3.0.0/rest-assured-common-3.0.0.jar:/Users/arunendu.roy/.m2/repository/io/rest-assured/xml-path/3.0.0/xml-path-3.0.0.jar:/Users/arunendu.roy/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/arunendu.roy/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/arunendu.roy/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/arunendu.roy/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/arunendu.roy/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/arunendu.roy/.m2/repository/org/json/json/20090211/json-20090211.jar:/Users/arunendu.roy/.m2/repository/io/qameta/allure/allure-testng/2.13.3/allure-testng-2.13.3.jar:/Users/arunendu.roy/.m2/repository/io/qameta/allure/allure-java-commons/2.13.3/allure-java-commons-2.13.3.jar:/Users/arunendu.roy/.m2/repository/io/qameta/allure/allure-model/2.13.3/allure-model-2.13.3.jar:/Users/arunendu.roy/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/arunendu.roy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/arunendu.roy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/arunendu.roy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/arunendu.roy/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/arunendu.roy/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/arunendu.roy/Documents/learn/PlivoInterview/target/surefire/surefirebooter7901975747822154346.jar /Users/arunendu.roy/Documents/learn/PlivoInterview/target/surefire 2020-06-07T17-55-03_130-jvmRun1 surefire7562622279287965176tmp surefire_08046272934340451830tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/arunendu.roy/Documents/learn/PlivoInterview/target/test-classes:/Users/arunendu.roy/Documents/learn/PlivoInterview/target/classes:/Users/arunendu.roy/.m2/repository/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar:/Users/arunendu.roy/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/Users/arunendu.roy/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/Users/arunendu.roy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/arunendu.roy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/arunendu.roy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/arunendu.roy/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/arunendu.roy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/arunendu.roy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/arunendu.roy/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/arunendu.roy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/arunendu.roy/.m2/repository/io/rest-assured/json-path/3.0.0/json-path-3.0.0.jar:/Users/arunendu.roy/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/Users/arunendu.roy/.m2/repository/io/rest-assured/rest-assured-common/3.0.0/rest-assured-common-3.0.0.jar:/Users/arunendu.roy/.m2/repository/io/rest-assured/xml-path/3.0.0/xml-path-3.0.0.jar:/Users/arunendu.roy/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/arunendu.roy/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/arunendu.roy/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/arunendu.roy/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/arunendu.roy/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/arunendu.roy/.m2/repository/org/json/json/20090211/json-20090211.jar:/Users/arunendu.roy/.m2/repository/io/qameta/allure/allure-testng/2.13.3/allure-testng-2.13.3.jar:/Users/arunendu.roy/.m2/repository/io/qameta/allure/allure-java-commons/2.13.3/allure-java-commons-2.13.3.jar:/Users/arunendu.roy/.m2/repository/io/qameta/allure/allure-model/2.13.3/allure-model-2.13.3.jar:/Users/arunendu.roy/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/arunendu.roy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/arunendu.roy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/arunendu.roy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/arunendu.roy/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/arunendu.roy/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/arunendu.roy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/arunendu.roy/Documents/learn/PlivoInterview"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/arunendu.roy/Documents/learn/PlivoInterview/target/surefire/surefirebooter7901975747822154346.jar:/Users/arunendu.roy/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="arunendu.roy"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.2"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/arunendu.roy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/hp/w7vcb1qd2sx_jlyrk46dgp502vhzdj/T/"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="/Users/arunendu.roy/Documents/learn/PlivoInterview"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/arunendu.roy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="/Users/arunendu.roy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="post_createChannel" classname="apiTest.scenario" time="3.082"/>
+  <testcase name="post_joinChannel" classname="apiTest.scenario" time="0.616"/>
+  <testcase name="post_renameChannel" classname="apiTest.scenario" time="0.795"/>
+  <testcase name="get_channels" classname="apiTest.scenario" time="1.298"/>
+  <testcase name="post_archiveChannel" classname="apiTest.scenario" time="0.686"/>
+  <testcase name="get_channelsAfterArchived" classname="apiTest.scenario" time="0.642"/>
+</testsuite>

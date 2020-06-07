@@ -1,6 +1,7 @@
 package Utils;
 
 import APIUtils.requests;
+import io.qameta.allure.Step;
 import org.json.JSONException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -24,6 +25,7 @@ public class JSONlib {
     HashMap<String, String> paramMap = new HashMap<String, String>();
     HashMap<String, String> headerMap = new HashMap<String, String>();
 
+    @Step("Server : {0}, endpoint : {1}, Request Method : {2}")
     public requests readFromAPIJson(String server, String endpoint, String type)
     {
 

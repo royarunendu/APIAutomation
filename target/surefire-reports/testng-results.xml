@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="7219" started-at="2020-06-07T12:25:04Z" finished-at="2020-06-07T12:25:12Z">
+    <groups>
+    </groups>
+    <test name="slack" duration-ms="7219" started-at="2020-06-07T12:25:04Z" finished-at="2020-06-07T12:25:12Z">
+      <class name="apiTest.scenario">
+        <test-method status="PASS" signature="post_createChannel()[pri:1, instance:apiTest.scenario@7e22550a]" name="post_createChannel" duration-ms="3047" started-at="2020-06-07T12:25:05Z" finished-at="2020-06-07T12:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_createChannel -->
+        <test-method status="PASS" signature="post_joinChannel()[pri:2, instance:apiTest.scenario@7e22550a]" name="post_joinChannel" duration-ms="615" started-at="2020-06-07T12:25:08Z" finished-at="2020-06-07T12:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_joinChannel -->
+        <test-method status="PASS" signature="post_renameChannel()[pri:3, instance:apiTest.scenario@7e22550a]" name="post_renameChannel" duration-ms="790" started-at="2020-06-07T12:25:08Z" finished-at="2020-06-07T12:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_renameChannel -->
+        <test-method status="PASS" signature="get_channels()[pri:4, instance:apiTest.scenario@7e22550a]" name="get_channels" duration-ms="1287" started-at="2020-06-07T12:25:09Z" finished-at="2020-06-07T12:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_channels -->
+        <test-method status="PASS" signature="post_archiveChannel()[pri:5, instance:apiTest.scenario@7e22550a]" name="post_archiveChannel" duration-ms="700" started-at="2020-06-07T12:25:10Z" finished-at="2020-06-07T12:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_archiveChannel -->
+        <test-method status="PASS" signature="get_channelsAfterArchived()[pri:6, instance:apiTest.scenario@7e22550a]" name="get_channelsAfterArchived" duration-ms="627" started-at="2020-06-07T12:25:11Z" finished-at="2020-06-07T12:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_channelsAfterArchived -->
+      </class> <!-- apiTest.scenario -->
+    </test> <!-- slack -->
+  </suite> <!-- test -->
+</testng-results>

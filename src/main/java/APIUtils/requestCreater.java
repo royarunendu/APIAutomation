@@ -3,6 +3,7 @@ package APIUtils;
 import Utils.Environment;
 import Utils.JSONlib;
 import Utils.encrypter;
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -46,7 +47,6 @@ public class requestCreater {
 
 
     }
-
 
     public responses callAPI(requests request)
     {
